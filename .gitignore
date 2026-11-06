@@ -1,0 +1,15 @@
+
+.DS_Store
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
