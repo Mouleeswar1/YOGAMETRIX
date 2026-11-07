@@ -10,7 +10,7 @@ import {
   ShieldCheck, Trophy, Users, X, Zap, UserRound, Bell, Download
 } from "lucide-react";
 
-const logo = "/src/association-logo.png";
+import logo from "./association-logo.png";
 const roleLabel = r => ({admin:"Administrator",judge:"Judge",chief_judge:"Chief Judge",marshal:"Stage Marshal",volunteer:"Volunteer",display:"Display Manager"}[r] || r);
 function App(){
   const [user,setUser] = useState(()=>JSON.parse(localStorage.getItem("ym_user")||"null"));
